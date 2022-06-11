@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+html{
+    background-color: rgb(44, 44, 44);
+
+}
+body{
+    font-family : 'Do Hyeon', sans-serif;
+    color: aliceblue;
+    background-color: rgb(44, 44, 44);
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+#startbutton{
+    border: 10px solid;
+    padding: 10px;
+}
+
+#A{
+    border: 5px solid;
+    padding: 5px;
+}
+#B{
+    border: 5px solid;
+    padding: 5px;
+}
+
+.question {
+    display: none;
+    
+}
+
+.loading {
+    display: none;
+}
+
+.result{
+    display: none;
+}
+
+#img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.share{
+    margin: 0 auto;
+}
+
+.kakao_ad{
+    width: 320px;
+    margin: 0 auto;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  @keyframes spin {
+    0% { transform: translate(-50%,-50%) rotate(0deg); }
+    100% { transform: translate(-50%,-50%) rotate(360deg); }
+  }
